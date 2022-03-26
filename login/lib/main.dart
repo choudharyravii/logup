@@ -1,9 +1,8 @@
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:login/homepage.dart';
 import 'package:login/login.dart';
-import 'package:login/signup.dart';
+
 
 Future<void> main() async {
    WidgetsFlutterBinding.ensureInitialized();
@@ -14,10 +13,8 @@ Future<void> main() async {
     // ignore: prefer_const_literals_to_create_immutables
     initialRoute: 'login',
     routes: {
-      'login': (context) => Mylogin(),
-      'mysignup': (context) => const Mysignup(),
-    
-      'myhomepage':(context)=> Myhomepage()
+      'login': (context) => MyLogin(),
+     
     },
   ));
 }

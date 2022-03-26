@@ -37,6 +37,7 @@ dependencies:
   firebase_core: ^1.11.0
   flutter_lints: ^1.0.0
   firebase_auth: ^3.3.5
+  adobe_xd: ^2.0.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
